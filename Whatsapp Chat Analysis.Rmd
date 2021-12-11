@@ -16,7 +16,7 @@ library(dplyr)
 library(tidyr)
 #load Data
 #Import and Check Structure of Data
-chat <- rwa_read("C:/Users/DEV/Downloads/Documents/Data Science/Whatsapp Chat Analysis/LehriChat.txt") %>% 
+chat <- rwa_read("C:/Users/DEV/Downloads/Documents/Data Science/Whatsapp Chat Analysis/Chat.txt") %>% 
   filter(!is.na(author)) # remove messages without author
 chat
 
